@@ -1,0 +1,205 @@
+{
+  "meta": {
+    "title": "Rekonsiliasi daftar hadir pelatihan"
+  },
+  "slides": [
+    {
+      "role": "cover",
+      "title": "Rekonsiliasi\ndaftar hadir pelatihan",
+      "accent_last_line": true,
+      "image": "@kelas",
+      "alt": "Fasilitator dan dua peserta membandingkan lembar kerja di laptop.",
+      "subtitle": "Dari dua daftar menjadi rekap kehadiran yang dapat diperiksa.",
+      "notes": "Tunjukkan tujuan akhir kelas. Tanyakan kepada peserta siapa yang pernah memperoleh dua angka kehadiran berbeda untuk acara yang sama."
+    },
+    {
+      "role": "hook",
+      "title": "Mengapa 4 baris presensi hanya mewakili 3 ID unik?",
+      "notes": "Minta dua dugaan sebelum menampilkan data. Jawaban yang akan diuji adalah satu ID yang terekam dua kali. Tiga ID unik juga belum tentu semuanya terdaftar."
+    },
+    {
+      "role": "roadmap",
+      "title": "Alur pelatihan",
+      "rows": [
+        {
+          "key": "A.",
+          "title": "Menyiapkan pasangan daftar",
+          "text": "Tentukan ID peserta, sumber registrasi, dan bukti presensi."
+        },
+        {
+          "key": "B.",
+          "title": "Menjelaskan selisih",
+          "text": "Temukan ID berulang, presensi tanpa registrasi, dan peserta yang belum hadir."
+        },
+        {
+          "key": "C.",
+          "title": "Menyerahkan rekap",
+          "text": "Sajikan angka akhir beserta baris yang mendukungnya."
+        }
+      ],
+      "notes": "Bacakan hasil akhir tiap bagian. Tekankan bahwa peserta memerlukan dua daftar untuk memastikan arti kehadiran."
+    },
+    {
+      "role": "day",
+      "title": "Memeriksa siapa yang hadir",
+      "subtitle": "Modul praktik rekonsiliasi",
+      "notes": "Mulai di sini untuk sesi satu modul. Siapkan dua daftar kecil pada papan tulis atau spreadsheet."
+    },
+    {
+      "role": "goals",
+      "title": "Apa yang akan dipelajari?",
+      "items": [
+        "Memilih ID yang sama pada dua daftar.",
+        "Membedakan presensi ganda dan ID tanpa registrasi.",
+        "Melaporkan jumlah peserta terdaftar yang hadir beserta buktinya."
+      ],
+      "notes": "Minta peserta memilih tujuan yang paling sering mereka perlukan. Kembalikan pertanyaan ini saat debrief."
+    },
+    {
+      "role": "divider",
+      "title": "Dua daftar, satu ID peserta",
+      "subtitle": "Simpan baris asli agar setiap selisih dapat ditelusuri.",
+      "notes": "Alihkan diskusi ke cara mencocokkan peserta. Dua orang dapat memiliki nama yang sama."
+    },
+    {
+      "role": "compare",
+      "title": "Registrasi dan presensi menjawab dua pertanyaan",
+      "tag": "Sumber bukti",
+      "left": {
+        "title": "Registrasi",
+        "items": [
+          "Siapa yang terdaftar untuk kelas ini?",
+          "Contoh ID: P01, P02, P03."
+        ]
+      },
+      "right": {
+        "title": "Presensi",
+        "items": [
+          "ID mana yang terekam hadir?",
+          "Contoh ID: P01, P01, P02, P04."
+        ]
+      },
+      "notes": "Tunjuk P03 di kiri dan P04 di kanan. Tanyakan apa yang dapat dikatakan tentang masing-masing sebelum membahas duplikasi."
+    },
+    {
+      "role": "process",
+      "title": "Tiga langkah untuk memeriksa kehadiran",
+      "tag": "Alur kerja",
+      "stages": [
+        {
+          "title": "Salin sumber",
+          "text": "Simpan satu salinan registrasi dan satu salinan presensi.",
+          "image": "icons/sumber.png",
+          "alt": "Dua lembar sumber."
+        },
+        {
+          "title": "Cocokkan ID",
+          "text": "Hitung frekuensi setiap ID dan periksa keanggotaannya di kedua daftar.",
+          "image": "icons/cocok.png",
+          "alt": "Dua daftar yang dicocokkan."
+        },
+        {
+          "title": "Catat selisih",
+          "text": "Tulis ID, jenis selisih, dan baris yang menjadi bukti.",
+          "image": "icons/bukti.png",
+          "alt": "Lembar bukti dengan tanda periksa."
+        }
+      ],
+      "notes": "Contohkan langkah pertama dengan dua salinan kosong. Tanyakan mengapa menyimpan sumber asli membantu ketika peserta mempersoalkan angka rekap."
+    },
+    {
+      "role": "cards",
+      "title": "Tiga selisih yang perlu diberi label",
+      "tag": "Klasifikasi",
+      "cards": [
+        {
+          "title": "ID berulang",
+          "text": "P01 muncul dua kali di presensi.",
+          "image": "icons/sumber.png"
+        },
+        {
+          "title": "Belum hadir",
+          "text": "P03 terdaftar dan belum memiliki presensi.",
+          "image": "icons/cocok.png"
+        },
+        {
+          "title": "Belum terdaftar",
+          "text": "P04 memiliki presensi tanpa pasangan registrasi.",
+          "image": "icons/bukti.png"
+        }
+      ],
+      "notes": "Jelaskan bahwa jenis selisih ditentukan dari posisi ID di kedua daftar. Status belum terdaftar perlu diklarifikasi kepada penyelenggara."
+    },
+    {
+      "role": "teach_lab",
+      "title": "Satu ID terdaftar dihitung hadir sekali",
+      "tag": "Aturan penghitungan",
+      "items": [
+        "Registrasi: P01, P02, P03.",
+        "Presensi: P01, P01, P02, P04.",
+        "Pertahankan semua baris asli saat menyusun rekap."
+      ],
+      "lab": {
+        "badge": "LAB 1",
+        "name": "Hitung peserta hadir",
+        "time": "8 menit · berpasangan",
+        "steps": [
+          "Tandai ID presensi yang berulang.",
+          "Lingkari ID yang ada di kedua daftar."
+        ],
+        "output": "Daftar ID terdaftar yang hadir dan jumlahnya."
+      },
+      "notes": "Alokasikan 2 menit untuk membaca, 4 menit untuk menandai, dan 2 menit untuk membandingkan. Kunci: P01 dan P02, total 2. Jika jawabannya 3, periksa apakah P04 ikut dihitung."
+    },
+    {
+      "role": "lab",
+      "title": "Siapkan pertanyaan klarifikasi",
+      "items": [
+        "Gunakan catatan P01, P03, dan P04 dari dua daftar sebelumnya."
+      ],
+      "lab": {
+        "badge": "MICRO-LAB 2",
+        "name": "Klarifikasi selisih",
+        "time": "6 menit · individu",
+        "steps": [
+          "Pilih satu ID yang perlu diklarifikasi.",
+          "Tulis pertanyaan untuk pengelola presensi.",
+          "Cantumkan baris yang mendukung pertanyaan."
+        ],
+        "output": "Satu pertanyaan yang menyebut ID dan bukti."
+      },
+      "notes": "Beri 3 menit menulis dan 3 menit saling membaca. Contoh: P04 tercatat di baris presensi keempat. Apakah ada registrasi susulan untuk P04?"
+    },
+    {
+      "role": "takeaway",
+      "title": "Simpan jejak dari angka sampai ke baris sumber",
+      "subtitle": "Jika ada yang menanyakan angka 2, tunjukkan pasangan P01 dan P02.",
+      "image": "@kelas",
+      "alt": "Peserta memeriksa hasil latihan bersama fasilitator.",
+      "notes": "Minta seseorang menjelaskan angka 2 tanpa memakai kata duplikat. Mereka perlu menyebut P01 dan P02 sebagai irisan antara dua daftar."
+    },
+    {
+      "role": "project",
+      "title": "Serahkan rekap yang dapat diperiksa rekan",
+      "tag": "Praktik akhir",
+      "setup": "15 menit · kelompok 3 orang · gunakan kedua daftar contoh",
+      "work": [
+        "Tulis jumlah terdaftar, hadir terdaftar, dan belum hadir.",
+        "Buat daftar tiga selisih beserta ID-nya.",
+        "Pilih satu selisih untuk diklarifikasi."
+      ],
+      "evidence": [
+        "Rekap tiga angka dengan daftar ID pendukung.",
+        "Tiga selisih yang diberi label sesuai sumber.",
+        "Pertanyaan yang merujuk pada data sumber."
+      ],
+      "notes": "Bagi peran menjadi penyusun, pemeriksa, dan pelapor. Berikan 10 menit untuk mengerjakan dan 5 menit untuk pemeriksaan silang. Minta pemeriksa menunjukkan satu angka beserta baris asalnya."
+    },
+    {
+      "role": "close",
+      "title": "ID mana yang akan Anda periksa lebih dulu?",
+      "subtitle": "Sebutkan satu selisih dan bukti yang akan Anda bawa.",
+      "notes": "Terima pilihan P01, P03, atau P04 jika alasannya merujuk pada sumber. Tutup setelah peserta membedakan pertanyaan klarifikasi dari kesimpulan akhir."
+    }
+  ]
+}

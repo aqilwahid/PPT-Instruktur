@@ -1,0 +1,4 @@
+interface:
+  display_name: "PPT Instruktur"
+  short_description: "Buat slide instruktur dengan contoh dan praktik kelas"
+  default_prompt: "Gunakan $ppt-instruktur untuk membuat PowerPoint instruktur dari materi pelatihan saya."
